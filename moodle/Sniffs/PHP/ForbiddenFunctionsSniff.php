@@ -35,7 +35,6 @@ class moodle_Sniffs_PHP_ForbiddenFunctionsSniff
             // Usual development debugging functions.
             'sizeof'       => 'count',
             'delete'       => 'unset',
-            'error_log'    => null,
             'print_r'      => null,
             'print_object' => null,
             // Dangerous functions. From coding style.
